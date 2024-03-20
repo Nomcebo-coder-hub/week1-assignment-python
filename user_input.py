@@ -1,8 +1,7 @@
-name = "Nomcebo"
-print(name)
+name = input("What is your name? ")
 
-age = 26
-print(age)
+age = input("What is your age? ")
 
-location = "South Africa"
-print(location)
+location = input("Where do you live? ")
+
+print("Hello {}, you are {} years old and live in {}.".format(name, age, location))
